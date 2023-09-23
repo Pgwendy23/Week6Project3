@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1" # Update with your desired AWS region
+  region = "us-east-1a" # Update with your desired AWS region
 }
 
 resource "aws_lightsail_instance" "Project3" {
